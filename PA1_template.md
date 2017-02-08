@@ -57,9 +57,10 @@ hist(Tablesums$Steps, breaks=5, xlab="Steps", main = "Total Steps per Day")
 ![plot of chunk unnamed-chunk-4](figure/unnamed-chunk-4-1.png)
 
 ## 3. Mean and median number of steps taken each day
+```{r}
 as.integer(mean(Tablesums$Steps))
 as.integer(median(Tablesums$Steps))
-
+```
 ## 4. Time series plot of the average number of steps taken
 Remove NA values/create interval averages.  
 
